@@ -1,0 +1,24 @@
+{
+  "name": "dareiru-ts",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --outDir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saji-ryu/dareiru-ts.git"
+  },
+  "author": "Ryusei Sajiki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saji-ryu/dareiru-ts/issues"
+  },
+  "homepage": "https://github.com/saji-ryu/dareiru-ts#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}
