@@ -1,7 +1,11 @@
 const child_process = require('child_process');
 const axios = require('axios');
 
-const cmd = 'sudo /usr/local/bin/arp-scan -l --interface en0';
+// for Mac
+// const cmd = 'sudo /usr/local/bin/arp-scan -l --interface en0';
+
+// for Raspi
+const cmd = 'sudo /usr/bin/arp-scan -l --interface wlan0';
 
 child_process.exec(cmd, async (err, stdout) => {
   const stdoutLines = stdout.split('\t');
